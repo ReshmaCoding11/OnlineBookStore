@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+html {
+    background-image: url('bgImage.png'); /* Add your image path here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Button container styles */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Icon container styles */
+.icon-container {
+    background-color: #8B8C89; /* Warm Grey */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Button styles */
+button {
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #1A3246; /* Darker shade of Deep Blue */
+}
+
+/* Font Awesome icon styles */
+i {
+    margin-right: 5px;
+}
+
+/* Link styles */
+a {
+    color: #2B580C; /* Forest Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #8B8C89; /* Warm Grey */
+}

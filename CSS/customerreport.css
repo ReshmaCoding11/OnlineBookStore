@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F5E6; /* Creamy White */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #214559; /* Deep Blue */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2B580C; /* Forest Green */
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filter {
+    margin-bottom: 10px;
+}
+
+.filter input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #8B8C89; /* Warm Grey */
+    border-radius: 5px;
+}
+
+.filter button {
+    padding: 8px 20px;
+    background-color: #D1B280; /* Soft Gold */
+    color: #FFFFFF; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter button:hover {
+    background-color: #2B580C; /* Forest Green */
+}
+
+#customerList {
+    margin-bottom: 20px;
+}
+
+#pagination {
+    text-align: center;
+}

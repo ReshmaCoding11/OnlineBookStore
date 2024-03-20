@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/CSS/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background"></div> <!-- Background overlay -->
+    <div class="dashboard-container">
+        <h1 class="title"><i class="fas fa-user"></i> Admin Dashboard</h1> <!-- Added icon for the title -->
+    </div>
+    <div class="container">
+        <div class="box" onclick="goToPage('products.html')">
+            <div class="box-content">
+                <h3><i class="fas fa-box"></i> Inventory</h3> <!-- Added icon for Products -->
+            </div>
+        </div>
+        <div class="box" onclick="goToPage('categories.html')">
+            <div class="box-content">
+                <h3><i class="fas fa-list"></i> Categories</h3> <!-- Added icon for Categories -->
+            </div>
+        </div>
+        <div class="box" onclick="goToPage('order.html')">
+            <div class="box-content">
+                <h3><i class="fas fa-shopping-cart"></i> Orders</h3> <!-- Added icon for Orders -->
+            </div>
+        </div>
+        <div class="box" onclick="goToPage('customers.html')">
+            <div class="box-content">
+                <h3><i class="fas fa-users"></i> Customers</h3> <!-- Added icon for Customers -->
+            </div>
+        </div>
+        <div class="box" onclick="goToPage('reports.html')">
+            <div class="box-content">
+                <h3><i class="fas fa-chart-bar"></i> Reports</h3> <!-- Added icon for Reports -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="/JAVASCRIPT/admin.js"></script>
+</body>
+</html>

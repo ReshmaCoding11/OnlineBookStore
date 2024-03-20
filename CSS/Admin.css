@@ -1,0 +1,82 @@
+/* Reset default browser styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F5E6; /* Creamy White */
+    background-image: url('bgImage.png'); /* Add your background image URL */
+    height : 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #214559; /* Deep Blue */
+}
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #214559; /* Deep Blue */
+    color: #fff; /* White */
+}
+
+h1 {
+    margin: 0;
+
+}
+.title {
+    color: #fff; /* White */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: #FFFFFF; /* White */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box-content {
+    flex: 1; /* Fill remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #214559; /* Deep Blue */
+}
+
+.icon {
+    font-size: 2rem; /* Adjust icon size */
+    margin-bottom: 10px; /* Add space between icon and text */
+}
+}

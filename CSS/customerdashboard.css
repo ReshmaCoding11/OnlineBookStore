@@ -1,0 +1,205 @@
+/* CSS Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F5E6; /* Creamy White */
+    background-image: url(bgImage.png);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+header {
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu-toggle {
+    background-color: transparent;
+    color: #FFFFFF; /* White */
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    padding-top: 60px;
+    overflow-y: auto;
+}
+
+#customerInfo {
+    padding: 20px;
+}
+
+.content {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.cart-container {
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #D1B280; /* Soft Gold */
+    color: #214559; /* Deep Blue */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left:390px;
+    margin-right : 200px;
+    width : 500px;
+}
+
+#cart .cart-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#cartText {
+    margin-right: 10px;
+}
+
+
+
+#totalPrice {
+    color: #FFFFFF; /* White */
+    margin-right: 10px;
+}
+
+#itemsInCart {
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.product-card h3 {
+    color: #2B580C; /* Forest Green */
+}
+
+.product-card p {
+    color: #333;/* Warm Grey */
+}
+
+.product-card {
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Apply your desired color palette */
+    border: 1px solid #214559; /* Deep Blue */
+    color: #214559; /* Deep Blue */
+    /* Add outline box */
+    outline: 2px solid #2B580C; /* Forest Green */
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+    background-color: #f2f2f2; /* Light Grey */
+}
+
+.product-card button {
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #2B580C; /* Forest Green */
+}
+
+
+.payment-section {
+    margin-top: 20px;
+    width : 520px;
+    margin-left:390px;
+    margin-right : 200px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #214559; /* Deep Blue */
+}
+
+#paymentMethod {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8B8C89; /* Warm Grey */
+    border-radius: 5px;
+}
+
+#creditAmount {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8B8C89; /* Warm Grey */
+    border-radius: 5px;
+}
+
+#paymentButton {
+    padding: 10px 20px;
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#paymentButton:hover {
+    background-color: #2B580C; /* Forest Green */
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    text-align: center;
+}
+
+.tick-mark {
+    font-size: 5rem; /* Adjust the size of the tick mark */
+    color: #0F4C81; /* Deep blue */
+    margin-bottom: 20px; /* Spacing between tick mark and message */
+}
+
+.confirmation-message {
+    color: #0F4C81; /* Deep blue */
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+

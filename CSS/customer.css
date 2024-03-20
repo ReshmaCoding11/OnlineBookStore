@@ -1,0 +1,115 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-image: url('bgImage.png'); /* Add your image path here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    color: #214559; /* Deep Blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #214559; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto 20px auto; /* Center button */
+    display: block; /* Ensure button takes full width */
+}
+
+button:hover {
+    background-color: #1A3246; /* Darker shade of Deep Blue */
+}
+
+/* Customer list styles */
+#customerList {
+    margin-top: 20px;
+}
+
+/* Pagination styles */
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1a1b1a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Link styles */
+a {
+    color: #214559; /* Deep Blue */
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+a:hover {
+    color: #2B580C; /* Forest Green */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text very bold */
+    font-size: 1.2em; /* Increase the font size */
+}
+
+a.active {
+    color:#2B580C; /* Deep Blue */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text very bold */
+    font-size: 1.2em;
+}
+
+/* Page number styles */
+.page-number {
+    display: inline-block;
+    margin: 0 5px; /* Proper spacing */
+    color: #214559; /* Deep Blue */
+}
